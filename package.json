@@ -5,16 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "postinstall": "prisma generate",
-    "build": "next build",
+    "build": "next build --webpack",
+    "test": "vitest run",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@prisma/adapter-mariadb": "^7.3.0",
-    "@prisma/client": "^7.3.0",
+    "@prisma/client": "^7.9.0",
     "mariadb": "^3.4.5",
-    "next": "16.1.6",
+    "next": "^16.2.11",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-hook-form": "^7.71.1",
@@ -31,8 +32,9 @@
     "dotenv": "^17.2.3",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
-    "prisma": "^7.3.0",
+    "prisma": "^7.9.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^3.2.4"
   }
 }
