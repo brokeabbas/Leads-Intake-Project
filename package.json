@@ -13,7 +13,7 @@
     "@hookform/resolvers": "^5.2.2",
     "@prisma/adapter-mariadb": "^7.3.0",
     "@prisma/client": "^7.3.0",
-    "mariadb": "^3.4.5",
+    "mariadb": "^3.5.3",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
